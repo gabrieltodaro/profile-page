@@ -2,6 +2,7 @@ import gappsLogo from '../assets/gapps_logo.png'
 import githubLogo from '../assets/github-logo.svg'
 import twitterLogo from '../assets/twitter-logo.svg'
 import instagramLogo from '../assets/instagram-logo.svg'
+import linkedinLogo from '../assets/linkedin-logo.svg'
 import '../styles/contact.css'
 
 function ContactComponent() {
@@ -13,6 +14,9 @@ function ContactComponent() {
         <div>
           <a href="https://gapps.tech" target="_blank">
             <img src={gappsLogo} className="logo" alt="Gapps logo" />
+          </a>
+          <a href="https://www.linkedin.com/in/gabrieltodaro/" target="_blank">
+            <img src={linkedinLogo} className="logo" alt="Twitter logo" />
           </a>
           <a href="https://twitter.com/gabztodaro" target="_blank">
             <img src={twitterLogo} className="logo" alt="Twitter logo" />
